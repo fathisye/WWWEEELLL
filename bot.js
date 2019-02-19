@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const Macker = new Discord.Client();
 const cre1 = new Discord.Client();
 const cre2 = new Discord.Client();
-const prefix = "!";
+const prefix = "-";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -25,7 +25,7 @@ client.on('ready', () => {
 });
 
 const child_process = require("child_process");
-const adminprefix = "!";
+const adminprefix = "-";
 const devs = ['419471939493429250'];
 
 client.on('message', message => {
